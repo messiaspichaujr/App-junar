@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #8d8484 16.62%, #4e4949 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 18px;
+}
+
+.cabecalho-imagem {
+    width: 7%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.cabecalho-menu-item:hover{
+    color: #cabfbf;
+}
+
+.conteudo {
+    padding: 10% 15%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.2px solid rgb(185, 185, 185);
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.conteudo-principal-escrito-titulo{
+    font-size: 30px; 
+    color: rgb(250, 235, 212);
+    font-family: 'Sedgwick Ave Display', cursive;
+    
+}
+.conteudo-principal-escrito-subtitulo{
+    font-size: 21px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+}
+.conteudo-principal-escrito-paragrafo{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 60px;
+
+
+}
+.conteudo-secundario-titulo{
+    border-top:0.2px solid rgb(185, 185, 185);
+    padding-top: 48px;
+    color: rgb(250, 235, 212);
+    font-size: 30px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.conteudo-secundario-titulo:hover{
+    font-size: 30.3px;
+    color: rgb(226, 208, 180);
+}
+
+.conteudo-secundario-paragrafo{
+    color: white;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-top: 0.2px solid rgb(185, 185, 185);
+    margin: 0 auto;
+}
+.rodape-paragrafo{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: white;
+}
